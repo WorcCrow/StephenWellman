@@ -1,0 +1,25 @@
+R8#
+
+*Database
+	-Added location column in dronerecord table
+
+*Config
+	-Much cleaner configuration
+
+*Mail
+	-Added No Auth Config
+
+*PHPMailer
+	-Remove ctype_alnum and replace with true
+
+*Drone
+	-Add Location Dropdown
+	-Autocomplete Location
+	-Enable automailer for drone
+
+*DroneRecord
+	-Added location column in table preview
+	-Modified record.php to return location column
+
+*DroneMail Template
+	-Created for drone

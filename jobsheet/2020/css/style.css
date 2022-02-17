@@ -1,0 +1,87 @@
+body {
+	width: 90%;	
+	margin:auto;
+	font-family: tahoma;
+	color: white;
+	padding: 5px 0px;
+}
+
+h1, h2 {
+	background-color: grey;
+	text-align: center;
+	margin: auto;
+	border-radius: 15px;
+	padding: 5px 0px;
+	width: 80%;
+}
+
+img {
+	display: block;
+	margin: 10px auto;
+}
+
+.buttoncenter {
+	margin: 10px 0px;
+	text-align: center;	
+}
+
+.button {
+	background-color: grey;
+	color: white;
+	display: inline-block;
+	width: 90px;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+
+.button:hover {
+	background-color: red;
+}
+
+.container {
+	background-color: grey;
+	border-radius: 15px;
+	width: 70%;
+	margin: auto;
+	padding: 10px 0px;
+	}
+
+.formheadings label {
+	display: block;
+	padding-top: 3px;
+	padding-left: 10px;
+}
+
+.ticketform input[type="text"], input[type="time"], input[type="date"], .ticketform select {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	padding: 3px;
+	margin-top: 3px;
+	width: 90%;
+}
+
+.ticketform textarea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 100px;
+	font-size: 15px;
+}
+
+.ticketform canvas {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	margin-top: 3px;
+	margin-left: 10px;
+}
+ul {
+	color: cyan;
+}
